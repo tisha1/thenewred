@@ -9,23 +9,463 @@
 	<title></title>
 
 	<!-- css styles -->
+
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Open+Sans:400,600,700|PT+Mono" rel="stylesheet">
+	
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
 
 </head>
 
 <body>
 
-<video autoplay loop id="video-background" muted>
-  <source src="images/glitch.mp4" type="video/mp4">
-</video>
+<!-- Home Page -->
 
+<div id="block" data-vide-bg="images/glitch" data-vide-options="position: 0% 50%">
+
+	<p class="triplet">JEFF MILLER <br>
+	DIGITAL ART DIRECTOR <br>
+	15 YEARS EXPERIENCE</p>
+
+	<p class="single">JEFF MILLER</p>
+
+
+
+	<span class="ptMono white">{ scroll down }</span>
+
+</div>
+
+
+<!-- Work Page -->
+
+<section class="workHeader eve">
+	
+	<div class="containerWidth">
+		<h1 class="latoBold white">WORK 01</h1>
+		<p class="ptMono white moreSpace">
+		TYPE: VIDEO GAME <br>
+		CLIENT: CCP GAMES <br>
+		</p>
+	</div>
+
+</section>
+
+<section class="work">
+
+		<div class="containerWidthTwo">
+		
+			<h3 class="latoBold">EVE ONLINE UNIVERSE</h3>
+			<p>Eve Online has been one of the greatest and most immersive space epics in gaming. I was tasked with expanding the universe to give the players a chance to design their own custom avatar for Eve Incarna, and to engage in fierce ground battles in Dust 514. My biggest contribution at CCP was to push the boundaries of the Eve universe while staying true to the original vision.<br>
+			<span class="ptMono red">RESPONSIBILITES:	ART DIRECTION,  LEAD ART, ART CREATION, MARKETING, OUTSOURCING MANAGEMENT.</span></p>
+
+		</div>
+
+		<div class="workCenter">
+
+			<video width="1080" height="640" controls poster="images/ccp/eve_video_poster.png">
+				<source src="images/ccp/dust514.mp4" type="video/mp4">
+			</video>
+
+			<div class="cycle-slideshow" 
+				data-cycle-swipe=true
+    			data-cycle-swipe-fx=scrollHorz
+				data-cycle-fx="scrollHorz"
+	    		data-cycle-timeout=0 
+	    		data-cycle-pager="#custom-pager2"
+    			data-cycle-pager-template="<strong><a href=#> {{slideNum}} </a></strong>">
+
+				<img src="images/ccp/dustshot09.jpg">
+				<img src="images/ccp/dustconcept01.jpg">
+				<img src="images/ccp/dustconcept02.jpg">
+				<img src="images/ccp/dustconcept03.jpg">
+				<img src="images/ccp/dustconcept04.jpg">
+				<img src="images/ccp/dustshot05.jpg">
+				<img src="images/ccp/dustshot06.jpg">
+				<img src="images/ccp/dustshot07.jpg">
+				<img src="images/ccp/dustshot08.jpg">
+				<img src="images/ccp/poster.jpg">
+			</div>
+
+			<div id="custom-pager2" class="center"></div>
+		
+
+			<div class="cycle-slideshow" 
+				data-cycle-swipe=true
+    			data-cycle-swipe-fx=scrollHorz
+				data-cycle-fx="scrollHorz"
+	    		data-cycle-timeout=0 
+	    		data-cycle-pager="#custom-pager3"
+    			data-cycle-pager-template="<strong><a href=#> {{slideNum}} </a></strong>">
+
+				<img src="images/ccp/Incarna01.jpg">
+				<img src="images/ccp/Incarna02.jpg">
+				<img src="images/ccp/Incarna03.jpg">
+				<img src="images/ccp/Incarna04.jpg">
+				<img src="images/ccp/Incarna05.jpg">
+				<img src="images/ccp/Incarna06.jpg">
+				<img src="images/ccp/Incarna07.jpg">
+			</div>
+
+			<div id="custom-pager3" class="center"></div>
+
+		</div>	
+
+</section>
+
+
+
+
+<section class="workHeader ubisoft">
+	
+	<div class="containerWidth">
+		<h1 class="latoBold">WORK 02</h1>
+		<p class="ptMono moreSpace white">
+		TYPE: VIDEO GAME <br>
+		CLIENT: UBISOFT <br>
+		</p>
+	</div>
+
+</section>
+
+<section class="work">
+	
+	<div class="containerWidthTwo">
+		
+		<h3 class="latoBold">UBISOFT</h3>
+		<p>Ubisoft’s catalogue of games is truly staggering. I have had the privilege to work on Ubisoft marketing and box art for years. I have also worked as an Art Director, and in that time I got to touch a number of Tom Clancy projects, including The Division, Ghost Recon Wildlands and Watch Dogs 2. I enjoyed pushing the quality bar and working with the extremely talented art teams.<br>
+		<span class="ptMono red">RESPONSIBILITIES:	ART DIRECTION, ART CREATION, BRAND DEVELOPMENT, MARKETING, OUTSOURCING MANAGEMENT.</span></p>
+
+	</div>
+
+		<div class="workCenter oneHundred">
+
+			<div class="cycle-slideshow" 
+				data-cycle-swipe=true
+    			data-cycle-swipe-fx=scrollHorz
+				data-cycle-fx="scrollHorz"
+	    		data-cycle-timeout=0 
+	    		data-cycle-pager="#custom-pager6"
+    			data-cycle-pager-template="<strong><a href=#> {{slideNum}} </a></strong>">
+
+				
+    			<img src="images/ubisoft/ghost_recon.jpg">
+				<img src="images/ubisoft/Watchdogs_Web.jpg">
+				<img src="images/ubisoft/gr_cover.png">
+				<img src="images/ubisoft/hawx_cover.png">
+				<img src="images/ubisoft/splintercell_cover.png">
+				<img src="images/ubisoft/watchdogs_small.png">
+			
+			</div>
+
+			<div id="custom-pager6" class="center"></div>
+
+		</div>	
+
+</section>	
+
+
+
+
+<section class="workHeader zombie">
+	
+	<div class="containerWidth">
+		<h1 class="latoBold">WORK 03</h1>
+		<p class="ptMono moreSpace white">
+		TYPE: VIDEO GAME <br>
+		CLIENT: LIMBIC SOFTWARE <br>
+		</p>
+	</div>
+
+</section>
+
+<section class="work">
+	
+	<div class="containerWidthTwo">
+		
+		<h3 class="latoBold">ZOMBIE GUNSHIP SURVIVAL</h3>
+		<p>A sequel to the popular game, Zombie Gunship; the mandate was “console grade graphics on a mobile device.”  My role was that of Art Director and Lead Artist, so I was responsible for shaping the visual style, setting the quality bar, developing the production pipeline, creating high quality game assets, and establishing and maintaining the outsourcing effort. I also designed the logo, various marketing assets, and worked on narrative and story.
+		<br>
+		<span class="ptMono red">RESPONSIBILITIES:	ART DIRECTION, LEAD ART, ART CREATION, BRAND DEVELOPMENT, LOGO DESIGN, STORY CONTRIBUTION, OUTSOURCING MANAGEMENT.</span></p>
+
+	</div>
+
+		<div class="workCenter">
+
+			<video width="1080" height="640" controls poster="images/limbic/ZGlogoPoster3.png">
+				<source src="images/limbic/161024_zgs_video_ad.mp4" type="video/mp4">
+			</video>
+
+			<div class="cycle-slideshow" 
+				data-cycle-swipe=true
+    			data-cycle-swipe-fx=scrollHorz
+				data-cycle-fx="scrollHorz"
+	    		data-cycle-timeout=0 
+	    		data-cycle-pager="#custom-pager"
+    			data-cycle-pager-template="<strong><a href=#> {{slideNum}} </a></strong>">
+
+				
+    			<img src="images/limbic/03_keyart_plane.png">
+				<img src="images/limbic/02_keyart_zombie.png">
+				<img src="images/limbic/04_keyart_portraits.png">
+				<img src="images/limbic/05_bw1.png">
+				<img src="images/limbic/06_bw2.png">
+				<img src="images/limbic/07_color1.png">
+				<img src="images/limbic/08_color2.png">
+				<img src="images/limbic/01_logo.png">
+			</div>
+				
+			<div id="custom-pager" class="center"></div>
+
+		</div>	
+
+</section>
+		
+		
+
+			
+<section class="workHeader entertainment">
+	
+	<div class="containerWidth">
+		<h1 class="latoBold">WORK 04</h1>
+		<p class="ptMono moreSpace white">
+		TYPE: ENTERTAINMENT <br>
+		CLIENT: VARIOUS CLIENTS <br>
+		</p>
+	</div>
+
+</section>
+
+<section class="work">
+	
+	<div class="containerWidthTwo">
+		
+		<h3 class="latoBold">ENTERTAINMENT INDUSTRY</h3>
+		<p>Over the years I have worked with dozens of clients on a wide range of projects, from pre-production for feature films, to print and digital marketing.  The list of clients includes Apple, Warner Brothers, Conde Nast, Will.I.Am, Interscope Records, Blur and many more. I always treat every client as my top priority, no matter how big or small they may be.<br>
+		<span class="ptMono red">RESPONSIBILITIES:	ART CREATION, MARKETING.</span></p>
+
+	</div>
+		
+		<div class="workCenter oneHundred">
+
+
+			<div class="cycle-slideshow" 
+				data-cycle-swipe=true
+    			data-cycle-swipe-fx=scrollHorz
+				data-cycle-fx="scrollHorz"
+	    		data-cycle-timeout=0 
+	    		data-cycle-pager="#custom-pager4"
+    			data-cycle-pager-template="<strong><a href=#> {{slideNum}} </a></strong>">
+
+    			<img src="images/entertainment/bep_01.jpg">
+    			<img src="images/entertainment/bep_02.jpg">
+    			<img src="images/entertainment/bep_03.png">
+    			<img src="images/entertainment/bep_04.png">
+    			<img src="images/entertainment/Will_lookdev.jpg">
+				<img src="images/entertainment/Wired_mag.jpg">
+			</div>
+
+			<div id="custom-pager4" class="center"></div>
+
+		</div>	
+				
+</section>
+
+
+
+
+<section class="workHeader personal">
+	
+	<div class="containerWidth">
+		<h1 class="latoBold white">WORK 05</h1>
+		<p class="ptMono moreSpace white">
+		TYPE: PERSONAL <br>
+		CLIENT: ME <br>
+		</p>
+	</div>
+
+</section>
+
+<section class="work">
+	
+	<div class="containerWidthTwo">
+		
+		<h3 class="latoBold">PERSONAL WORK</h3>
+		<p>I don’t have as much free time for personal work as I used to. That being said, I always have ideas for projects, and I always want to try out new programs and techniques so I can stay up to date on the latest tech. Most of the things I work on for fun never see the light of day, but I always try to learn something new with any piece that I tackle.<br>
+		<span class="ptMono red">RESPONSIBILITIES:	ART CREATION.</span></p>
+
+	</div>
+
+		<div class="workCenter oneHundred">
+
+			<div class="cycle-slideshow" 
+				data-cycle-swipe=true
+    			data-cycle-swipe-fx=scrollHorz
+				data-cycle-fx="scrollHorz"
+	    		data-cycle-timeout=0 
+	    		data-cycle-pager="#custom-pager5"
+    			data-cycle-pager-template="<strong><a href=#> {{slideNum}} </a></strong>">
+
+    			<img src="images/personal/01_Astronaut.png">
+				<img src="images/personal/02_Astronaut.jpg">
+				<img src="images/personal/03_Astronaut.jpg">
+				<img src="images/personal/03_glorious.jpg">
+				<img src="images/personal/04_boxer.jpg">
+			</div>
+
+			<div id="custom-pager5" class="center"></div>
+
+		</div>	
+				
+</section>
+		
+
+				
+
+				
+<!-- About Page -->
+
+<section class="about">
+	
+	<div class="containerWidthThree">
+				
+		<div class="chunk">
+			<h4>SKILLS</h4>
+			<ul>
+				<li>ART DIRECTION</li>
+				<li>CONCEPTING</li>
+				<li>UI/UX DESIGN</li>
+				<li>LOGO DESIGN</li>
+				<li>MODELING</li>
+				<li>TEXTURING</li>
+				<li>ANIMATION</li>
+				<li>VFX</li>
+				<li>MOBILE</li>
+				<li>CONSOLE</li>
+				<li>PC GAMING</li>
+				<li>VIRTUAL REALITY</li>
+			</ul>
+		</div>
+
+		<div class="chunk">
+			<h4>PROJECTS</h4>
+			<ul>
+				<li>HALO WARS</li>
+				<li>GHOST RECON WILDLANDS</li>
+				<li>THE DIVISION</li>
+				<li>TRIALS FUSION</li>
+				<li>DUST 514</li>
+				<li>EVE ONLINE</li>
+				<li>THE CREW</li>
+				<li>STAR WARS FORCE UNLEASHED</li>
+				<li>GHOST RECON FUTURE SOLDIER</li>
+				<li>WATCHDOGS</li>
+				<li>PLUS MORE</li>
+			</ul>
+		</div>
+		
+		<div class="chunk">
+			<h4>CLIENTS</h4>
+			<ul>
+				<li>APPLE</li>
+				<li>UBISOFT</li>
+				<li>MICROSOFT</li>
+				<li>WARNER BROS.</li>
+				<li>INTERSCOPE RECORDS</li>
+				<li>20th CENTURY FOX</li>
+				<li>BLUR STUDIOS</li>
+				<li>LUCAS ARTS</li>
+				<li>CCP GAMES</li>
+				<li>MONOLITH PRODUCTIONS</li>
+				<li>LIMBIC SOFTWARE</li>
+				<li>CONDE NAST PUBLICATIONS</li>
+			</ul>
+		</div>
+
+		<div class="chunk">
+			<h4>ME</h4>
+			<ul>
+				<li>HUSBAND</li>
+				<li>CAT DAD</li>
+				<li>ARTIST</li>
+				<li>WRITER</li>
+				<li>PHILOSOPHER</li>
+				<li>COFFEE SNOB</li>
+				<li>NORTHPOINTER</li>
+				<li>DUNGEON MASTER</li>
+				<li>PROFESSIONAL NERD</li>
+				
+			</ul>
+		</div>
+
+	</div>
+
+</section>
+
+				
+
+			
+
+<!-- Footer Page -->
+
+<section class="footer">
+
+	<div class="containerWidtTwo">
+
+		<a href="#block"><img src="images/logo.svg"></a>
+
+		<nav>
+			<ul>
+				<!-- <li><a href="">LINKEDIN</a></li>
+				<li><a href="">ARTSTATION</a></li> -->
+				<li><a href="mailto:jeffrey.reed.miller@gmail.com">CONTACT</a></li>
+			</ul>
+		</nav>
+
+		<span>&copy; JEFF MILLER 2016 • Website Design<a href="http://superth.in">SUPERTHIN</a></span>
+
+	</div>
+
+</section>				
 
 
 <!-- javascript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/jquery.vide.js"></script>
+<script src="http://malsup.github.com/jquery.cycle2.js"></script>
 <script type="text/javascript" src="js/scripts.js"></script>
 
 </body>
 
 </html>
+
+
+
+	
+
+
+
+
+		
+		
+				
+
+
+
+
+				
+				
+
+
+
+
+
+
+
+
+
+
+
+
+	
